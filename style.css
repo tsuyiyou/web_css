@@ -1,11 +1,28 @@
 body{
     text-align:center;
+margin:0;
 }
 
 .you{
     background-color:#d8eff0;
     padding-top:100px;
 }
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size:5.625rem;
+    margin: 50px auto -20px auto;
+}
+h2{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:2.5rem;
+}
+
+p{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
 
 .top-cloud{
     position: absolute;    
