@@ -1,28 +1,32 @@
 body{
     text-align:center;
-margin:0;
+    margin:0;
 }
 
 .you{
     background-color:#d8eff0;
     padding-top:100px;
+    line-height:80px;
 }
 
 h1{
     font-family: 'Sacramento', cursive;
     font-size:5.625rem;
     margin: 50px auto -20px auto;
+    color:#66BFBF;
 }
 h2{
     font-family: 'Gloria Hallelujah', cursive;
     font-size:2.5rem;
+    color:#66BFBF;
+    font-weight:normal;
 }
-
+h3{
+    color:#11999E;
+}
 p{
     font-family: 'Gloria Hallelujah', cursive;
 }
-
-
 
 .top-cloud{
     position: absolute;    
@@ -38,4 +42,31 @@ p{
 .mountain{
     display:inline-block;
     position: relative;
+}
+
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+    line-height:2;
+}
+
+.img-skill{
+     width:25%;
+     float:left;
+     padding-right:30px;
+}
+
+.img-skillrow{
+    width:25%;
+    float:right;
+    margin-left:30px;
+}
+
+.text-skill{
+    clear:left;
+}
+
+.text-skill2{
+    clear:right;
 }
